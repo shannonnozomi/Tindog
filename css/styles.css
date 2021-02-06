@@ -1,0 +1,159 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+#title {
+    background-color: #ff4c68;
+    height: 70vh;
+    overflow: hidden;
+}
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5 rem;
+    padding-bottom: 3%;
+}
+
+/* font-family: 'Ubuntu', sans-serif;  */
+
+.navbar {
+    padding: 0 0;
+}
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+.nav-link {
+    margin-left: 40px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    /* font: 'Montserrat', sans-serif; */
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    padding-top: 70px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.iphone-img {
+    transform: rotate(25deg);
+    padding: 30px;
+    margin-left: 50px;
+    width: 70%;
+}
+
+
+.features-row {
+    padding: 20% auto;
+}
+
+.btn-space {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+h2 { 
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 5% 25% 0%;
+    text-align: center;
+}
+.testimonial-image {
+    width: 8%;
+    border-radius: 100%;
+    padding: 0px 5px;
+}
+h3 {
+    font-family: "Montserrat-Bold", sans-serif;
+    size: 1.5rem;
+}
+.fas {
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+.fab:hover, .fas:hover {
+    color: #ff4c68;
+}
+
+#features {
+    padding: 5% 15%;
+}
+p {
+    text-align: center;
+    color: #8f8f8f;
+}
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+
+}
+.bottom-buttons {
+    margin: 0 1%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.press-image {
+    width: 15%;
+    margin: 70px 50px;
+}
+.pricing {
+    padding: 5% 15%;
+}
+.testimonial-slide {
+    padding: 5% 15%;
+}
+.card-body {
+    text-align: center;
+}
+.card-header {
+    text-align: center;
+}
+.card {
+    height: 450px;
+    margin: 10% 0;
+
+}
+.card-deck {
+    padding-bottom: 5%;
+}
+.fa-envelope {
+    color: black;
+}
+
+#cta {
+    padding: 6%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
+.footer {
+    text-align: center;
+}
+.footer-icons {
+    text-align: center;
+    padding-top: 5%;
+}
+.Copyright {
+    position: relative;
+    bottom: 40px;
+}
+
+@media (max-width: 1028px) {
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        height: 50vh;
+        text-align: center;
+    }
+}
